@@ -672,6 +672,8 @@ uint32_t *PnmLoad(const char *filename, int *w, int *h)
 	return pix;
 }
 
+#undef SHY_PNM_IMPLEMENTATION
+
 #endif
 
 #endif
